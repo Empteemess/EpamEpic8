@@ -61,6 +61,9 @@ public class GameRepository : IGameRepository
         var scope = _serviceProvider.CreateScope();
         var unitOfWork = scope.ServiceProvider.GetService<IUnitOfWork>();
         
+        var gameCheck = _context.MysqlContext.Games.FirstOrDefaultAsync(x => x.Name == game.Name);
+        if (gameCheck is not null) throw new Exception("Game already exists");  
+        
         using var transaction = unitOfWork.BeginTransactionAsync();
         try
         {

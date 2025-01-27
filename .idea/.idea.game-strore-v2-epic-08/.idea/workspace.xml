@@ -8,24 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3280212-ac36-45a9-a880-180df99167b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/CustomDatabase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/ICustomDatabase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/IMongoDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/IMysqlContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.game-strore-v2-epic-08/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game-strore-v2-epic-08/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.game-strore-v2-epic-08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game-strore-v2-epic-08/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Services/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/CategoryService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Application/Services/GameService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/GameService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/IRepositories/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/IRepositories/IUnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/AppDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/MongoDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/MongoDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/UnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Repositories/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Repositories/CategoryRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Infrastructure/Repositories/GameRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Repositories/GameRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.Api/Configs/DatabaseConfigs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.Api/Configs/DatabaseConfigs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web.Api/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.Api/Controllers/CategoryController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="d3280212-ac36-45a9-a880-180df99167b9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +98,7 @@
       <workItem from="1737125470011" duration="19736000" />
       <workItem from="1737152652592" duration="890000" />
       <workItem from="1737205919212" duration="18305000" />
-      <workItem from="1737997310077" duration="4630000" />
+      <workItem from="1737997310077" duration="4960000" />
     </task>
     <servers />
   </component>
