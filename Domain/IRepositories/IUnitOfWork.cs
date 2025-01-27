@@ -1,4 +1,4 @@
-namespace Infrastructure.Repositories;
+namespace Domain.IRepositories;
 
 public interface IUnitOfWork
 {

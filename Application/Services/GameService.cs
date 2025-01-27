@@ -1,6 +1,7 @@
 using Application.Dtos;
 using Application.Mappers;
 using Domain.Entities;
+using Domain.IRepositories;
 using Infrastructure.Repositories;
 using MongoDB.Bson;
 using MongoDB.Driver;

@@ -1,8 +1,10 @@
 using Application.Services;
 using Domain;
+using Domain.IRepositories;
 using Infrastructure.Data;
 using Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
+using IDatabase = Microsoft.EntityFrameworkCore.Storage.IDatabase;
 
 namespace Web.Api.Configs;
 
@@ -39,6 +41,11 @@ public static class DatabaseConfigs
         services.AddScoped<ICategoryRepository,CategoryRepository>();
         
         services.AddScoped<IUnitOfWork,UnitOfWork>();
+        
+        services.AddScoped<IMongoDbContext,MongoDbContext>();
+        services.AddScoped<IMysqlContext,AppDbContext>();
+     
+        services.AddScoped<ICustomDatabase,CustomDatabase>();
         
         services.AddScoped<IGameService,GameService>();
         services.AddScoped<ICategoryService,CategoryService>();

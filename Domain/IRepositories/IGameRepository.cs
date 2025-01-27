@@ -1,8 +1,7 @@
 using Domain.Entities;
 using MongoDB.Bson;
-using MongoDB.Driver;
 
-namespace Infrastructure.Repositories;
+namespace Domain.IRepositories;
 
 public interface IGameRepository
 {

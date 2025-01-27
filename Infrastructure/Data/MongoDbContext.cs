@@ -1,5 +1,6 @@
 using Domain;
 using Domain.Entities;
+using Domain.IRepositories;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
@@ -7,7 +8,7 @@ using Sprache;
 
 namespace Infrastructure.Data;
 
-public class MongoDbContext
+public class MongoDbContext : IMongoDbContext
 {
     private readonly IMongoDatabase _gameDb;
     private readonly IMongoDatabase _categoryDb;

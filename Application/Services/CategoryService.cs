@@ -1,5 +1,6 @@
 using Application.Mappers;
 using Domain.Entities;
+using Domain.IRepositories;
 using Infrastructure.Repositories;
 
 namespace Application.Services;

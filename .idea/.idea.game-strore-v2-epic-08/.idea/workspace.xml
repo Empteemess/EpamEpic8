@@ -8,7 +8,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3280212-ac36-45a9-a880-180df99167b9" name="Changes" comment="" />
+    <list default="true" id="d3280212-ac36-45a9-a880-180df99167b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/CustomDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/ICustomDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/IMongoDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Infrastructure/Data/IMysqlContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game-strore-v2-epic-08/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game-strore-v2-epic-08/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.game-strore-v2-epic-08/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.game-strore-v2-epic-08/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Services/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/CategoryService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Application/Services/GameService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Application/Services/GameService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Domain/IRepositories/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/IRepositories/IUnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/AppDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/AppDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/MongoDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/MongoDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Data/UnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Data/UnitOfWork.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Repositories/CategoryRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Repositories/CategoryRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Infrastructure/Repositories/GameRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Repositories/GameRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web.Api/Configs/DatabaseConfigs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.Api/Configs/DatabaseConfigs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web.Api/Controllers/CategoryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web.Api/Controllers/CategoryController.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +34,23 @@
   <component name="DpaMonitoringSettings">
     <option name="firstShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/fea93ee2ea48db69df97b9196fe77e86f2428c362835f6eda284e2df33bc5db/Ensure.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2rixCvhCnQyEFt51ggtP4iljLt1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +59,8 @@
   "keyToString": {
     ".NET Launch Settings Profile.Web.Api: http.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,6 +115,7 @@
       <workItem from="1737125470011" duration="19736000" />
       <workItem from="1737152652592" duration="890000" />
       <workItem from="1737205919212" duration="18305000" />
+      <workItem from="1737997310077" duration="4630000" />
     </task>
     <servers />
   </component>
@@ -95,89 +125,5 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Web.Api/Controllers/GameController.cs</url>
-          <line>29</line>
-          <properties documentPath="C:\Users\giorgi\Desktop\Projects\Epam\game-strore-v2-epic-08\Web.Api\Controllers\GameController.cs" containingFunctionPresentation="Method 'AddGame'">
-            <startOffsets>
-              <option value="816" />
-            </startOffsets>
-            <endOffsets>
-              <option value="817" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Application/Services/GameService.cs</url>
-          <line>48</line>
-          <properties documentPath="C:\Users\giorgi\Desktop\Projects\Epam\game-strore-v2-epic-08\Application\Services\GameService.cs" containingFunctionPresentation="Method 'AddGameAsync'">
-            <startOffsets>
-              <option value="1352" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1353" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Infrastructure/Repositories/GameRepository.cs</url>
-          <line>52</line>
-          <properties documentPath="C:\Users\giorgi\Desktop\Projects\Epam\game-strore-v2-epic-08\Infrastructure\Repositories\GameRepository.cs" containingFunctionPresentation="Method 'AddGamesAsync'">
-            <startOffsets>
-              <option value="1648" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1649" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Web.Api/Controllers/CategoryController.cs</url>
-          <line>21</line>
-          <properties documentPath="C:\Users\giorgi\Desktop\Projects\Epam\game-strore-v2-epic-08\Web.Api\Controllers\CategoryController.cs" containingFunctionPresentation="Method 'AddCategory'">
-            <startOffsets>
-              <option value="642" />
-            </startOffsets>
-            <endOffsets>
-              <option value="643" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Application/Services/CategoryService.cs</url>
-          <line>16</line>
-          <properties documentPath="C:\Users\giorgi\Desktop\Projects\Epam\game-strore-v2-epic-08\Application\Services\CategoryService.cs" containingFunctionPresentation="Method 'AddCategory'">
-            <startOffsets>
-              <option value="389" />
-            </startOffsets>
-            <endOffsets>
-              <option value="390" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Infrastructure/Repositories/CategoryRepository.cs</url>
-          <line>47</line>
-          <properties documentPath="C:\Users\giorgi\Desktop\Projects\Epam\game-strore-v2-epic-08\Infrastructure\Repositories\CategoryRepository.cs" containingFunctionPresentation="Method 'AddCategoryToGame'">
-            <startOffsets>
-              <option value="1538" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1539" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
